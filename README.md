@@ -1,5 +1,5 @@
 ﻿
-## QR CODE FILE GENERATOR
+## QR CODE FILES GENERATOR
 
 ### Overview
 
