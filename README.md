@@ -45,9 +45,7 @@ Below instructions are tailored for the MacOs. Update the **Homebrew** before se
 
 - Test if the setup works:
 
-    ```
-   virtualenv --version
-    ```
+   `virtualenv --version`
 
 - Create a virtualenv using the following cmd:
 
