@@ -6,8 +6,7 @@
 Strictly adhere to the following versions of the stack:
 
 - Python 3.6	
-- Postgres 9.6
-- Django 2.0.1
+- Django 2.2
 
 ---
 
@@ -44,13 +43,10 @@ Below instructions are tailored for the MacOs. Update the **Homebrew** before se
 
     `pip3 install virtualenv`
 
-- Source *~/.bash_profile*
-
 - Test if the setup works:
 
     ```
-    mkvirtualenv test
-    deactivate
+   virtualenv --version
     ```
 
 - Create a virtualenv using the following cmd:
@@ -65,17 +61,13 @@ Below instructions are tailored for the MacOs. Update the **Homebrew** before se
 
     - After cloning the project, move into the project dir:
 
-        `cd qrcode`
+        `cd qrcode-generator`
 
     - Install the specified *django* version and other packages through the requirements.txt:
 
         `pip install -r requirements.txt`
 
     - Use *sudo* incase you bump into the permission issue during *pip install*.
-
-    - Before running the migration, copy api/settings.py.sample > api/settings.py and configure it according to your development setup.
-
-        `cd api && cp api/settings.py.sample api/settings.py`
 
     - Run the migration:
 
