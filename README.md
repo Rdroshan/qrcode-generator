@@ -1,5 +1,5 @@
 ﻿
-## QR code Images to PDF files GENERATOR
+## QR code images to PDF files Generator
 
 ### Overview
 
